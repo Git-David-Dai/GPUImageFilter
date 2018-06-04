@@ -10,10 +10,10 @@
 
 @interface GPUImage3DFilter : GPUImageFilter
 
-// effect scope
+// 3d扩散程度
 @property(readwrite, nonatomic) CGFloat diffusionRange;
 
-// filter scope
+// 调整圆形滤镜
 @property(readwrite, nonatomic) CGPoint center;// [0,1] default[0.5,0.5]
 @property(readwrite, nonatomic) CGFloat radius;// [0,1]
 
